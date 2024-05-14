@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     background-image: url("nossasenhorafatima.jpeg");
     background-size: 1300px;
+    background-attachment: fixed;
 }
 
 #formulario {
