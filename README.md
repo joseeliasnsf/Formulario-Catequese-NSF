@@ -16,7 +16,7 @@ Criação do formulário digital dos catequizandos da Paroquia Nossa Senhra de F
 - [João Victor](https://github.com/joseeliasnsf)
 - [Ivo Pessato](https://github.com/joseeliasnsf)
 - [Rudi](https://github.com/joseeliasnsf)
-- [Diogo](https://github.com/joseeliasnsf)
+- [Diogo Luiz da Silva](https://github.com/joseeliasnsf)
 - [Wilson Serafim](https://github.com/joseeliasnsf)
 
 
