@@ -6,7 +6,7 @@ Criação do formulário digital dos catequizandos da Paroquia Nossa Senhra de F
 
 ## Screenshots
 
-![App Screenshot](https://imagizer.imageshack.com/img923/5135/oNcbxX.jpg
+![App Screenshot](https://imagizer.imageshack.com/img923/1072/U4CtbO.png
 )
 
 
