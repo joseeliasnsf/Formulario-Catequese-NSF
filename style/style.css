@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-image: url("nossasenhorafatima.jpeg");
+    background-image: url("./img/nossasenhorafatima.jpeg");
     background-size: 1300px;
     background-attachment: fixed;
 }
@@ -36,4 +36,18 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    margin: auto;
+}
+
+button:active {
+    opacity: 0.8;
+}
+.sair {
+    display: flex;
+    justify-content: right;
+    text-align: right;
 }

@@ -1,0 +1,52 @@
+.loading {
+    background: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100vh;
+    height: 100vh;
+}
+.centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url("./img/nossasenhorafatima.jpeg");
+    background-size: 1300px;
+    background-attachment: fixed;
+}
+form {
+    width: 300px;
+}
+input {
+    border: none;
+}
+input, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+}
+button {
+    cursor: pointer;
+}
+button:active {
+    opacity: 0.8;
+}
+
+.clear {
+    background: rgb(35, 0, 161);
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+}
+.solid {
+    background: rgb(45, 211, 111);
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+}
+.outline {
+    background: rgb(68, 2, 2);
+    color: white;
+    border: 1px solid white;
+}
