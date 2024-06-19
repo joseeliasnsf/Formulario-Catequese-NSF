@@ -51,3 +51,8 @@ button:active {
     justify-content: right;
     text-align: right;
 }
+
+.table td, .table th {
+    white-space: nowrap;
+}
+

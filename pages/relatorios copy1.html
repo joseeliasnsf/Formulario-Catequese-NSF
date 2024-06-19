@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatorio</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="../js/auth-guard.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Relatorio</h1>
+    </div>
+
+    <div class="container">
+        <table class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Nr cadastro</th>
+                <th scope="col">Nome do Catequizando</th>
+                <th scope="col">Paroquia</th>
+                <th scope="col">Email</th>
+                <th scope="col">Data Nascimento</th>
+                <th scope="col">Endereço</th>
+                <th scope="col">Bairro</th>
+                <th scope="col">CEP</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Nome do Pai</th>
+                <th scope="col">Nome da Mãe</th>
+                <th scope="col">Situação dos Pais</th>
+                <th scope="col">Viuvo(a)</th>
+                <th scope="col">Mora / Vive</th>
+                <th scope="col">Batizado</th>
+                <th scope="col">Data Batismo</th>
+                <th scope="col">Livro</th>
+                <th scope="col">Folha</th>
+                <th scope="col">Paroquia de Batismo</th>
+                <th scope="col">Nome do Padrinho</th>
+                <th scope="col">Nome da Madrinha</th>
+                <th scope="col">Escola</th>
+                <th scope="col">Ano</th>
+                <th scope="col">Horário</th>
+                <th scope="col">Toma algum medicamento continuo:</th>
+                <th scope="col">Em caso de emergência, avisar para:</th>
+                <th scope="col">É alergico:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <tr>
+                    <td>001</td>
+                    <td>João Silva</td>
+                    <td>Paróquia São José</td>
+                    <td>joao.silva@example.com</td>
+                    <td>12/05/2010</td>
+                    <td>Rua das Flores, 123</td>
+                    <td>Centro</td>
+                    <td>12345-678</td>
+                    <td>(11) 98765-4321</td>
+                    <td>Carlos Silva</td>
+                    <td>Maria Silva</td>
+                    <td>Casados</td>
+                    <td>Não</td>
+                    <td>Com os Pais</td>
+                    <td>Sim</td>
+                    <td>15/06/2011</td>
+                    <td>Livro A</td>
+                    <td>Folha 12</td>
+                    <td>Paróquia São José</td>
+                    <td>Pedro Souza</td>
+                    <td>Ana Souza</td>
+                    <td>Escola ABC</td>
+                    <td>5º Ano</td>
+                    <td>Manhã</td>
+                    <td>Não</td>
+                    <td>Carlos Silva - (11) 98765-4321</td>
+                    <td>Não</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Ana Pereira</td>
+                    <td>Paróquia Santa Maria</td>
+                    <td>ana.pereira@example.com</td>
+                    <td>23/08/2009</td>
+                    <td>Avenida Paulista, 456</td>
+                    <td>Jardins</td>
+                    <td>98765-432</td>
+                    <td>(11) 91234-5678</td>
+                    <td>João Pereira</td>
+                    <td>Clara Pereira</td>
+                    <td>Divorciados</td>
+                    <td>Não</td>
+                    <td>Com a Mãe</td>
+                    <td>Sim</td>
+                    <td>30/09/2010</td>
+                    <td>Livro B</td>
+                    <td>Folha 45</td>
+                    <td>Paróquia Santa Maria</td>
+                    <td>Rafael Lima</td>
+                    <td>Juliana Lima</td>
+                    <td>Escola XYZ</td>
+                    <td>6º Ano</td>
+                    <td>Tarde</td>
+                    <td>Sim</td>
+                    <td>Clara Pereira - (11) 91234-5678</td>
+                    <td>Sim</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Carlos Mendes</td>
+                    <td>Paróquia Nossa Senhora</td>
+                    <td>carlos.mendes@example.com</td>
+                    <td>15/02/2008</td>
+                    <td>Rua das Palmeiras, 789</td>
+                    <td>Vila Nova</td>
+                    <td>54321-987</td>
+                    <td>(11) 97654-3210</td>
+                    <td>Paulo Mendes</td>
+                    <td>Laura Mendes</td>
+                    <td>Casados</td>
+                    <td>Não</td>
+                    <td>Com os Pais</td>
+                    <td>Sim</td>
+                    <td>20/03/2009</td>
+                    <td>Livro C</td>
+                    <td>Folha 78</td>
+                    <td>Paróquia Nossa Senhora</td>
+                    <td>Fernando Costa</td>
+                    <td>Beatriz Costa</td>
+                    <td>Escola Alpha</td>
+                    <td>7º Ano</td>
+                    <td>Noite</td>
+                    <td>Não</td>
+                    <td>Paulo Mendes - (11) 97654-3210</td>
+                    <td>Não</td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>Maria Fernandes</td>
+                    <td>Paróquia Santo Antônio</td>
+                    <td>maria.fernandes@example.com</td>
+                    <td>10/11/2007</td>
+                    <td>Avenida Central, 101</td>
+                    <td>Centro</td>
+                    <td>65432-198</td>
+                    <td>(11) 93456-7890</td>
+                    <td>Rafael Fernandes</td>
+                    <td>Ana Fernandes</td>
+                    <td>Viúvo</td>
+                    <td>Sim</td>
+                    <td>Com o Pai</td>
+                    <td>Sim</td>
+                    <td>25/12/2008</td>
+                    <td>Livro D</td>
+                    <td>Folha 89</td>
+                    <td>Paróquia Santo Antônio</td>
+                    <td>Gabriel Souza</td>
+                    <td>Clara Souza</td>
+                    <td>Escola Beta</td>
+                    <td>8º Ano</td>
+                    <td>Integral</td>
+                    <td>Sim</td>
+                    <td>Rafael Fernandes - (11) 93456-7890</td>
+                    <td>Não</td>
+                </tr>
+                <tr>
+                    <td>005</td>
+                    <td>Lucas Almeida</td>
+                    <td>Paróquia São Pedro</td>
+                    <td>lucas.almeida@example.com</td>
+                    <td>28/03/2011</td>
+                    <td>Rua Nova, 202</td>
+                    <td>Jardim</td>
+                    <td>87654-321</td>
+                    <td>(11) 94321-6789</td>
+                    <td>Marcos Almeida</td>
+                    <td>Carla Almeida</td>
+                    <td>Casados</td>
+                    <td>Não</td>
+                    <td>Com os Pais</td>
+                    <td>Sim</td>
+                    <td>15/04/2012</td>
+                    <td>Livro E</td>
+                    <td>Folha 34</td>
+                    <td>Paróquia São Pedro</td>
+                    <td>Felipe Lima</td>
+                    <td>Sofia Lima</td>
+                    <td>Escola Gama</td>
+                    <td>4º Ano</td>
+                    <td>Manhã</td>
+                    <td>Não</td>
+                    <td>Marcos Almeida - (11) 94321-6789</td>
+                    <td>Sim</td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+<script src="../js/script.js"></script>
+</body>
+</html>
